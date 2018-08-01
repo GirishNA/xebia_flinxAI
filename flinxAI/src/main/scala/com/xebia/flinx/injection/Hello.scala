@@ -19,7 +19,7 @@ object Hello {
 
     val x =sparkSession.sparkContext.parallelize(Seq(1,2,3,4,5));
 
-    print("---------------------------------------------------->"+x.count());
+    print("------------------------------------------>"+x.count());
   }
 
 }

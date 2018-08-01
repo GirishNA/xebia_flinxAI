@@ -13,9 +13,13 @@ object Hello {
 
     import sparkSession.implicits._
 
-    var text = sparkSession.read.option("header",true).csv("/home/user/text.csv");
+   // var text = sparkSession.read.option("header",true).csv("/home/user/text.csv");
 
-    text.show();
+   // text.show();
+
+    val x =sparkSession.sparkContext.parallelize(Seq(1,2,3,4,5));
+
+    print("---------------------------------------------------->"+x.count());
   }
 
 }

@@ -1,4 +1,4 @@
-package com.xebia.flinx.injection
+package com.xebia.flinx.ingestion
 
 import org.apache.spark.sql.SparkSession
 

@@ -4,3 +4,9 @@ target/
 #ignoring the .idea/ folder 
 .idea/
 
+
+#ignoring all .iws files, .iml files and .ipr files
+
+*.iws
+*.iml
+*.ipr
